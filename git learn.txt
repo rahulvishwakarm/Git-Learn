@@ -1,0 +1,41 @@
+Git Learn
+
+>install git
+
+>git --version  #TO get git version
+>git config --global user.name "<Name>" #Set username
+>git config --global user.email "<emailId>" #Set Email
+>git config --list #Show the details
+
+
+#Working on git with file
+>git --version
+>go to the desired directory
+>create a folder eg testgit, create a file and work on it and save eg "index.html"
+>Now locate the specific dirctory in cmd
+>git init
+>git status
+>git add .
+>git status	
+>git commit -m "first commit"
+>git log --oneline  #See the brief log of commit
+>git status
+
+#IMP
+After rest checkout to return to original state
+>git reset HEAD index.html
+>git status
+>git checkout <commit><file>  #checkout the file an older fcommit
+ eg: >git checkout <id> index.html
+commands reset
+>git reset
+>git reset <file>
+
+
+
+#Working with OnLine git repository Commands
+
+>git remote add origin "<repo url>"
+>git push -u origin  master
+
+
