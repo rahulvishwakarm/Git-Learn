@@ -49,7 +49,26 @@ Steps
 5) git remote add origin "<pass your project clone url>"
 6) git pull --allow-unrelated-histories "<pass your project clone url>" master
 7) git push -u "<pass your project clone url>" master
+or git push -u origin master
 
 
 #Resetting the URL origin
 >git remote set-url origin "<git url>"
+
+
+
+
+More Git commands:
+
+To configure your user name to be used by Git
+>git config --global user.name "Your Name"
+
+To configure your email to be used by Git
+>git config --global user.email <your email address>
+
+You can check your default Git global configuration
+>git config --list
+
+
+
+
